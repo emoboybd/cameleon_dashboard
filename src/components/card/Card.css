@@ -1,0 +1,59 @@
+.card {
+  background-color: #1a1e30;
+  width: 30rem;
+}
+.active_card {
+  background-color: #0329e8;
+  color: var(--secondary_text_color);
+}
+
+.normal_card {
+  color: var(--secondary_text_color);
+}
+.card_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_name {
+  font-weight: 400;
+  font-size: 20px;
+}
+.card_wrapper {
+  padding: 2.4rem;
+}
+.card_display_number {
+  font-size: 5.8rem;
+  font-weight: 600;
+}
+.card_number_white {
+  color: #ddeffa;
+}
+.card_number_blue {
+  color: #17b1ea;
+}
+.card_btm {
+  display: flex;
+  justify-content: space-between;
+}
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.index_up {
+  color: #00de73;
+}
+.index_down {
+  color: #f21010;
+}
+.index_neutral {
+  color: var(--secondary_text_color);
+}
+.card_btm_icon {
+  width: 2.4rem;
+  height: auto;
+}
+.visitors_chart {
+  width: 100%;
+}

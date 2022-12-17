@@ -1,0 +1,27 @@
+.site_performance_time_date_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+.site_performance_date_wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.site_performance_text {
+  color: var(--secondary_text_color);
+
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.site_performance_time,
+.site_performance_date {
+  color: #585f80;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.site_performance_link {
+  color: #17b1ea;
+  cursor: pointer;
+}

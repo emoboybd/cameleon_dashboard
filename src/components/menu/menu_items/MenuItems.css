@@ -1,0 +1,43 @@
+.menu_item_main {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.menu_item_icon {
+  height: auto;
+  width: 2rem;
+}
+.menu_items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.7rem;
+}
+.margin_btm_0 {
+  margin-bottom: 0 !important;
+}
+.menu_item-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--main_text_color);
+}
+/*  notifications */
+.menu_notification_message_text,
+.menu_notification_invoice_text {
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 0.6rem 1.2rem;
+}
+.menu_notification_message_wrapper {
+  background-color: #0c3247;
+  border-radius: 2.6rem;
+}
+.menu_notification_message_text {
+  color: #42bbff;
+}
+.menu_notification_invoice_text {
+  color: #fff;
+}
+.menu_notification_invoice_wrapper {
+  background-color: #bf3931;
+  border-radius: 2.6rem;
+}

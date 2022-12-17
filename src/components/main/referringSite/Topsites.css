@@ -1,0 +1,21 @@
+.top_sites {
+  width: 82%;
+}
+.top_sites_text_wrapper > h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.top_sites_text {
+  color: 1.4rem;
+  color: #585f80;
+  font-weight: 400;
+}
+.top_sites_text_wrapper {
+  margin-bottom: 3.4rem;
+}
+.top_site_lists {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
